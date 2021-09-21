@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Verallel",
+  "description": "A web extension to ease navigation of Veracross",
+  "version": "1.0.0",
+  "permissions": [
+  "unlimitedStorage",
+  "tabs",
+  "storage", 
+  "activeTab", 
+  "scripting",
+  "http://*/",
+  "https://*/"
+  ],
+  "optional_permissions": ["notifications"],
+  "content_scripts": [
+    {
+      "matches": ["*://classes.veracross.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "media/verallelicon16.png",
+      "48": "media/verallelicon48.png",
+      "64": "media/verallelicon64.png"
+    },
+    "default_popup": "popup.html"
+  }
+}
+    

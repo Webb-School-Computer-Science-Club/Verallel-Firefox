@@ -1,8 +1,8 @@
-<a href='https://github.com/Webb-School-Computer-Science-Club/Verallel'>Check out the Chrome version!</a><br>
-This release is currently updated to the beta v1.0.5  of the chrome version. It will be released onto the Firefox Addons Store along with the release of the Chrome v1.1.0
+<a href='https://chrome.google.com/webstore/detail/verallel/gndjmpiohedkdigkpibefbaoboajlnah'>Get it on the chrome webstore</a><br>
+This release is version 1.0.0, so the only feature it has is clickable links to the dropbox from the classpage. Any commits after the latest release are for version 1.1.0, which will hopefuly be a big update. A version 1.0.5 has released, but that is a beta version for some feature testing. Version 1.1.0 will be the next version on the web store, not version 1.0.5.
 
-# Verallel-Firefox
-A student-made, student-tailored Firefox addon for Veracross. Provides ease of navigation in Veracross, with other quality of life features, and even more in progress.<br>
+# Verallel
+A student-made, student-tailored Chrome web extension for Veracross. Provides ease of navigation in Veracross, with other quality of life features, and even more in progress.<br>
 Currently, the only features of the extension are to add a link to the dropbox from any class popup in the class tab and to remove the mess of numbers and letters before the name of the actual class in the class tab, but other featues are going to come soon!<br>
 Unfortunatley, at the moment, this extension is compatible only for Webb students, as the links will not work if your Veracross is a different school. 
 
