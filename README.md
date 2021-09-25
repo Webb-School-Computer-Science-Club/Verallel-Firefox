@@ -1,10 +1,10 @@
-<a href='https://chrome.google.com/webstore/detail/verallel/gndjmpiohedkdigkpibefbaoboajlnah'>Get it on the chrome webstore</a><br>
+<a href='https://github.com/Webb-School-Computer-Science-Club/Verallel'>Check out the Chrome version!</a><br>
 This release is version 1.0.0, so the only feature it has is clickable links to the dropbox from the classpage. Any commits after the latest release are for version 1.1.0, which will hopefuly be a big update. A version 1.0.5 has released, but that is a beta version for some feature testing. Version 1.1.0 will be the next version on the web store, not version 1.0.5.
 
 # Verallel
-A student-made, student-tailored Chrome web extension for Veracross. Provides ease of navigation in Veracross, with other quality of life features, and even more in progress.<br>
+A student-made, student-tailored Firefox Addon for Veracross. Provides ease of navigation in Veracross, with other quality of life features, and even more in progress.<br>
 Currently, the only features of 1.0.0 are to add a link to the dropbox from any class popup in the class tab, but other featues are going to come soon in the 1.1.0 release!<br>
-Unfortunatley, at the moment, this extension is compatible only for Webb students, as the links will not work if your Veracross is a different school. 
+Unfortunatley, at the moment, this addon is compatible only for Webb students, as the links will not work if your Veracross is a different school. 
 
 # Jump to
 [Upcoming Updates](#upcoming-updates)
@@ -24,7 +24,7 @@ When it comes to repository issues, please keep in mind that the developer team 
 
 # Helping with Development
 If you wish to help with the development of the site, the zip folder release of the extension will be provided (and maybe some other beta versions the dev team is working on). If you are not part of the dev team and end up making yor own working version please publish the code as a fork of this repository. Additionally, make sure to detail the changes you make in your fork compared to the original.<br>
-This is the repository for the Chrome extension for Verallel. If you want to help with Verallel as a Firefox add-on, you should check out <a href="https://github.com/Webb-School-Computer-Science-Club/Verallel-Firefox">Verallel-Firefox</a>
+This is the repository for the Firefox addon for Verallel. If you want to help with Verallel as a Chrome extension, you should check out <a href="https://github.com/Webb-School-Computer-Science-Club/Verallel">Verallel</a>
 
 # Potential Feature Additions the Dev Team has High on the Bucket List
   - The popup window having a dark/light mode toggler for Veracross
