@@ -12,20 +12,29 @@
   "http://*/",
   "https://*/"
   ],
-  "optional_permissions": ["notifications"],
+"optional_permissions": ["notifications"],
+"browser_action": {
+  "default_popup": "popup.html",
+  "default_icon": {
+    "16": "media/verallelicon16.png",
+    "48": "media/verallelicon48.png",
+    "64": "media/verallelicon64.png"
+  }
+  
+  },
   "content_scripts": [
     {
       "matches": ["*://classes.veracross.com/*"],
-      "js": ["content.js"]
-    }
-  ],
-  "browser_action": {
-    "default_icon": {
-      "16": "media/verallelicon16.png",
-      "48": "media/verallelicon48.png",
-      "64": "media/verallelicon64.png"
+      "js": ["content_scripts/classes_veracross.js"]
     },
-    "default_popup": "popup.html"
-  }
+    {
+      "matches": ["*://portals.veracross.com/*/student/detail/assignment/*"],
+      "js": ["content_scripts/portals_veracross_assignment_detail.js"]
+    },
+    {
+      "matches": ["*://portals.veracross.com/*/student/submit-assignments", "*://portals.veracross.com/*/student/submit-assignments/assignment/*"],
+      "js": ["content_scripts/dropbox.js"]
+    }
+  ]
 }
-    
+
