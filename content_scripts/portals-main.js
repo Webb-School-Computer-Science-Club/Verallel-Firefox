@@ -51,4 +51,4 @@ var li = document.createElement('li');
 li.classList.add('vx-portal-nav__item');
 li.id = 'verallel-db-link';
 li.appendChild(dbLink);
-            ul.appendChild(li);
+ul.appendChild(li);
