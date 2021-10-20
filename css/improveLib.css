@@ -1,0 +1,38 @@
+/*
+improveLib.css: for improving the unecessarily large Webb libraries link, along with added elements and other sizings
+*/
+
+.vx-hover-menu__hover-links-container 
+{
+    min-height: 50px !important;
+}  
+
+.vx-hover-menu 
+{
+    width: 210px !important; 
+    margin-left: 66% !important;
+}
+
+.dropbox-logo
+{
+   height: 16px;
+   width:  16px;
+   filter:  invert(1) sepia(0) hue-rotate(0deg) saturate(100%) brightness(1.0) contrast(100%);
+   vertical-align: bottom;
+   margin-bottom: 13px;
+}
+
+.vx-portal-nav__item-link:hover > .nc-icon-glyph.dropbox-logo
+{
+   filter:  invert(34%) sepia(19%) saturate(2271%) hue-rotate(103deg) brightness(97%) contrast(97%);
+}
+
+.vx-record-header__title
+{
+    font-size: 0rem !important;
+}
+
+.vx-record-header__course-description
+{
+    font-size: 1.25rem !important;
+}
