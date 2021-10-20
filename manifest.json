@@ -1,40 +1,63 @@
 {
-  "manifest_version": 2,
-  "name": "Verallel",
-  "description": "A web extension to ease navigation of Veracross",
-  "version": "1.0.0",
-  "permissions": [
-  "unlimitedStorage",
-  "tabs",
-  "storage", 
-  "activeTab", 
-  "scripting",
-  "http://*/",
-  "https://*/"
-  ],
-"optional_permissions": ["notifications"],
-"browser_action": {
-  "default_popup": "popup.html",
-  "default_icon": {
-    "16": "media/verallelicon16.png",
-    "48": "media/verallelicon48.png",
-    "64": "media/verallelicon64.png"
-  }
-  
-  },
-  "content_scripts": [
-    {
-      "matches": ["*://classes.veracross.com/*"],
-      "js": ["content_scripts/classes_veracross.js"]
-    },
-    {
-      "matches": ["*://portals.veracross.com/*/student/detail/assignment/*"],
-      "js": ["content_scripts/portals_veracross_assignment_detail.js"]
-    },
-    {
-      "matches": ["*://portals.veracross.com/*/student/submit-assignments", "*://portals.veracross.com/*/student/submit-assignments/assignment/*"],
-      "js": ["content_scripts/dropbox.js"]
-    }
-  ]
-}
+    "manifest_version": 2,
+    "name": "Verallel",
+    "description": "A web extension to ease navigation of Veracross",
+    "version": "1.1.0",
+    
+    "permissions": [
+        "unlimitedStorage",
+        "tabs",
+        "storage", 
+        "activeTab", 
+        "scripting",
+        "http://*/",
+        "https://*/"
+    ],
+    "optional_permissions": ["notifications"],
+    
+    
+    "content_scripts": 
+    [
+        {
+            "css": ["css/improveLib.css"],
+            "all_frames": true,
+            "matches": ["*://portals.veracross.com/*"]
+        },
+        
+        {
+            "js": ["contentJs/assignmentSubmission.js"],
+            "all_frames": true,
+            "matches": ["*://portals.veracross.com/*/student/submit-assigments/*", "*://portals.veracross.com/*/student/submit-assignments"]
+        },
+        {
+            "matches": ["*://classes.veracross.com/*"],
+            "js": ["contentJs/link_improve.js", "contentJs/improve_0.js"]
+        },
+        {
+            "matches": ["*://portals.veracross.com/*/student/*"],
+            "js": ["contentJs/drop_box_one_top.js", "contentJs/link_improve.js"]
+        },
+        {
+            "matches": ["*://portals.veracross.com/*/student/detail/assignment/*"],
+            "js": ["contentJs/improve_1.js"]
+        },
+        {
+            "matches": ["*://portals.veracross.com/*/student/submit-assignments", "*://portals.veracross.com/*/student/submit-assignments/*"],
+            "js": ["contentJs/improve_2.js"]
+        }
+    ],
+    
 
+    "browser_action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+          "16": "media/verallelicon16.png",
+          "48": "media/verallelicon48.png",
+          "64": "media/verallelicon64.png",
+          "128":"media/verallelicon.png"
+        }
+    },
+    
+    
+    "options_page": "popup/options.html"
+}

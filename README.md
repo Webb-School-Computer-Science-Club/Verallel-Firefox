@@ -1,10 +1,12 @@
-<a href='https://github.com/Webb-School-Computer-Science-Club/Verallel'>Check out the Chrome version!</a><br>
-This release is version 1.0.0, so the only feature it has is clickable links to the dropbox from the classpage. Any commits after the latest release are for version 1.1.0, which will hopefuly be a big update. A version 1.0.5 has released, but that is a beta version for some feature testing. Version 1.1.0 will be the next version on the web store, not version 1.0.5.
+<a href=''>Check out the Chrome Version</a><br>
+Version 1.1.0 has just released on Github and is about to be released on the webstore (the first 1.1.0 released has a small bug, but another version will be released in some time that improves upon 1.1.0). Any commits after the 1.1.0 release will be for the subsequent update, the scale of which is unknown at the moment, but its release is coming some time in the near future.<br>
+Check out <a href="https://github.com/Webb-School-Computer-Science-Club/Verallel">Verallel's Chrome Version</a> and <a href = 'https://2023popn.github.io/VeraNav/'>VeraNav</a>, a website made for easier navigation of Veracross!
 
-# Verallel-Firefox
+# Verallel
 A student-made, student-tailored Firefox Addon for Veracross. Provides ease of navigation in Veracross, with other quality of life features, and even more in progress.<br>
-Currently, the only features of 1.0.0 are to add a link to the dropbox from any class popup in the class tab, but other featues are going to come soon in the 1.1.0 release!<br>
-Unfortunatley, at the moment, this addon is compatible only for Webb students, as the links will not work if your Veracross is a different school. 
+ 1.1.0 is a massive upgrade from 1.0.0, including a link to the drop box from the top, making sure no links open in new tabs, and fetching assignments and lesson plans from the popup. There definitley is more to do for further developing Verallel though!
+<br>
+Unfortunatley, at the moment, this extension is compatible only for Webb students, as the links will not work if your Veracross is a different school. 
 
 # Jump to
 [Upcoming Updates](#upcoming-updates)
@@ -16,15 +18,16 @@ Unfortunatley, at the moment, this addon is compatible only for Webb students, a
 [Potential Feature Additions](#potential-feature-addons-the-dev-team-has-high-on-the-bucket-list)
 
 # Upcoming Updates
-Compared to version 1.0.0, version 1.1.0 has these following upgrades (keep in mind this list is going to get bigger as 1.1.0 hasn't been fully developed yet):
-  - Fetching all upcoming assignments from popup page, putting assignments due the day of any the day after first
-  - Link to dropbox and general cleanup of assignment detail page in portals.veracross.com, along with improvement of dropbox page UI
+Upcoming updates for the next version of Verallel:
+  - Adding a dropdown for the directories to make it easier to get to the one the user wants
+  - Making the calendar and other pages slightly easier to read by replacing class IDs with the name of the class or just eliminating class IDs all together
+  - Scrolling down to the assignment due the soonest (relative to the current day, assumes no assignment is missing) from Dropbox page
 # Issue Handling
 When it comes to repository issues, please keep in mind that the developer team for Verallel has an order of priorities for issue fixing. There isn't a rigid order, but expect issues about major bugs to be solved first over adding minor feature enhancements. This shouldn't deter you from making an issue for a bug or a feature request if you have one, but acknowledge that there a limited amount of people on the team, each with other commitments of their own. <br> If you make an issue about a bug, please detail how you got to the bug and if that bug is consistently reproducible. Additionally, make sure your issue is not already an issue on the repository. 
 
 # Helping with Development
 If you wish to help with the development of the site, the zip folder release of the extension will be provided (and maybe some other beta versions the dev team is working on). If you are not part of the dev team and end up making yor own working version please publish the code as a fork of this repository. Additionally, make sure to detail the changes you make in your fork compared to the original.<br>
-This is the repository for the Firefox addon for Verallel. If you want to help with Verallel as a Chrome extension, you should check out <a href="https://github.com/Webb-School-Computer-Science-Club/Verallel">Verallel</a>
+This is the repository for the Chrome extension for Verallel. If you want to help with Verallel as a Firefox add-on, you should check out <a href="https://github.com/Webb-School-Computer-Science-Club/Verallel-Firefox">Verallel-Firefox</a>
 
 # Potential Feature Additions the Dev Team has High on the Bucket List
   - The popup window having a dark/light mode toggler for Veracross
